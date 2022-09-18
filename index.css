@@ -12,7 +12,7 @@ body {
 header {
     background-color: aliceblue;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     max-width: 600px;
     padding: 1px 0
 }
@@ -20,7 +20,7 @@ header {
 main {
     background-color: lightcyan;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     max-width: 600px;
     padding: 0;
     display: flex;
@@ -36,7 +36,7 @@ main {
     align-items: center;
     justify-content: center;
     max-width: 500px;
-    width: 70vw;
+    width: 70%;
     border-radius: 10px;
     background: turquoise;
     cursor: pointer;
@@ -67,7 +67,7 @@ button {
     font-weight: bold;
     letter-spacing: 0.05em;
     padding: 0.5em;
-    width: 60vw;
+    width: 60;
     max-width: 300px;
 }
 
@@ -79,10 +79,10 @@ button:hover {
     background-color: papayawhip;
     display: flex;
     flex-direction: row;
-    font-size: clamp(10px, 8vw, 32px);
+    font-size: clamp(10px, 8%, 32px);
     justify-content: center;
     letter-spacing: 1em;
     padding-left: 0.5em;
     max-width: calc(600px - 0.5em);
-    width: 100vw;
+    width: 100%;
 }
