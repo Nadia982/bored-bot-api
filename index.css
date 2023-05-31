@@ -10,6 +10,7 @@ body {
     font-family: Verdana, sans-serif;
     box-sizing: border-box;
     font-size: 32px;
+    max-height: 100vh;
 }
 
 header {
